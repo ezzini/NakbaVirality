@@ -1,6 +1,6 @@
-# **AbjadGenEval**: Abjad AI Generated Text Detection Shared Task for Languages Using Arabic Script  
+# **AraSentEval**: Shared Task on Sentiment Analysis and Swapping in Arabic  
 
-### Hosted with [AbjadNLP Workshop](https://wp.lancs.ac.uk/abjad/) within EACL 2026 Conference
+### Hosted with OSACT7 Workshop at LREC 2026
 
 ### Guidelines for Participating Teams
 **Q: Who can participate in shared tasks?** <br>
@@ -34,12 +34,12 @@ A: Yes, if you register and request the dataset, you agree to submit a paper. It
 A: This is strictly prohibited. You agree to register and submit a paper when requesting the dataset. Abandoning the task after receiving data may result in banning participants from future participation.
 
 **Q: What is the paper format?** <br>
-A: Shared task papers must follow the format for short papers at EACL 2025. Papers must follow official ACL LaTeX or Word templates, be up to 4 pages (excluding unlimited references). Check the dedicated paper submission guidelines URL below for more details: [https://github.com/acl-org/acl-style-files](https://github.com/acl-org/acl-style-files)
+A: Shared task papers must follow the format for short papers at LREC 2026. Papers must follow official ACL LaTeX or Word templates, be up to 4 pages (excluding unlimited references). Check the dedicated paper submission guidelines URL below for more details: [https://github.com/acl-org/acl-style-files](https://github.com/acl-org/acl-style-files)
 
 **Q: How should the paper title be formatted?** <br>
 A: Use this format: \<Team Name\> at \<Task Name\>: \<Your Contribution\>
 
-Example: "Scholarly at AbjadGenEval Shared Task: LLMs in Detection for Identifying Manipulative Strategies"
+Example: "Scholarly at AraSentEval Shared Task: Sentiment Swapping using LLMs"
 
 **Q: Must I cite the task overview paper?** <br>
 A: Yes, each team is required to cite the shared task overview paper in their system paper.

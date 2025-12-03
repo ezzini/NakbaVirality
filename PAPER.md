@@ -1,6 +1,6 @@
-# **AbjadGenEval**: Abjad AI Generated Text Detection Shared Task for Languages Using Arabic Script  
+# **AraSentEval**: Shared Task on Sentiment Analysis and Swapping in Arabic  
 
-### Hosted with [AbjadNLP Workshop](https://wp.lancs.ac.uk/abjad/) within EACL 2026 Conference
+### Hosted with OSACT7 Workshop at LREC 2026
 
 ## SHARED TASK PAPER SUBMISSION GUIDELINES
 
@@ -53,7 +53,7 @@ Low-level details for replication that aren't essential for understanding main c
 
 ### Formatting Requirements ⚠️
 #### Templates and Style
-- Must use: Official EACL 2026 (ACL) style templates (LaTeX or Word)
+- Must use: Official LREC 2026 style templates (LaTeX or Word)
 - Download from: [https://github.com/acl-org/acl-style-files](https://github.com/acl-org/acl-style-files)
 - Follow: General "*ACL" conference formatting guidelines
 - Do NOT: Modify style files or use templates from other conferences to avoid the paper rejection

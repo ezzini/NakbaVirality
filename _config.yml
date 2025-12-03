@@ -1,10 +1,10 @@
-title: "AbjadGenEval 2026"
-#description: "Call for Participation: AbjadGenEval"
+title: "AraSentEval 2026"
+description: "AraSentEval 2026: A Shared Task on Sentiment Analysis and Swapping in Arabic"
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
-  repository_url: "https://forms.gle/NayQZxy1NDdmdbPz5"
-  repository_name: "Registration Open"
+  repository_url: ""
+  repository_name: "AraSentEval 2026"
 markdown:
   kramdown:
     auto_ids: false  # This disables automatic heading IDs
