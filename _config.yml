@@ -1,10 +1,10 @@
-title: "AraSentEval 2026"
-description: "AraSentEval 2026: A Shared Task on Sentiment Analysis and Swapping in Arabic"
+title: "NakbaVirality"
+description: "NakbaVirality: Multimodal and Textual Virality Prediction in High-Stakes Discourse"
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
   repository_url: ""
-  repository_name: "AraSentEval 2026"
+  repository_name: "NakbaVirality"
 markdown:
   kramdown:
     auto_ids: false  # This disables automatic heading IDs

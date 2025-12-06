@@ -1,10 +1,3 @@
-# **AraSentEval**: Shared Task on Sentiment Analysis and Swapping in Arabic  
-
-### Hosted with OSACT7 Workshop at LREC 2026
-
-### Guidelines for Participating Teams
-**Q: Who can participate in shared tasks?** <br>
-A: Anyone who wants to can participate, either independently or by forming a team.
 
 **Q: Is there a fee to participate in a task?** <br>
 A: No, participation is completely free but at least one team member should pay to register for the conference.
@@ -34,12 +27,12 @@ A: Yes, if you register and request the dataset, you agree to submit a paper. It
 A: This is strictly prohibited. You agree to register and submit a paper when requesting the dataset. Abandoning the task after receiving data may result in banning participants from future participation.
 
 **Q: What is the paper format?** <br>
-A: Shared task papers must follow the format for short papers at LREC 2026. Papers must follow official ACL LaTeX or Word templates, be up to 4 pages (excluding unlimited references). Check the dedicated paper submission guidelines URL below for more details: [https://github.com/acl-org/acl-style-files](https://github.com/acl-org/acl-style-files)
+A: Shared task papers must follow the official ACL templates (LaTeX or Word). Papers must be up to 4 pages (excluding unlimited references). Check the dedicated paper submission guidelines URL below for more details: [https://github.com/acl-org/acl-style-files](https://github.com/acl-org/acl-style-files)
 
 **Q: How should the paper title be formatted?** <br>
 A: Use this format: \<Team Name\> at \<Task Name\>: \<Your Contribution\>
 
-Example: "Scholarly at AraSentEval Shared Task: Sentiment Swapping using LLMs"
+Example: "Scholarly at NakbaVirality Shared Task: Multimodal Virality Prediction"
 
 **Q: Must I cite the task overview paper?** <br>
 A: Yes, each team is required to cite the shared task overview paper in their system paper.
