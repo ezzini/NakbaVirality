@@ -72,4 +72,3 @@ A:
 
 - For task-specific questions: Consult the task website and contact task organizers.
 - For workshop logistics: Contact the shared task organizers.
-- For OpenReview technical issues: Contact OpenReview support.

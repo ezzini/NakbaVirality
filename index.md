@@ -65,6 +65,14 @@ This shared task contributes to the NLP community by:
 *   **Feb 20**: Evaluation Period Ends.
 *   **Mar 1**: Paper Submission Deadline.
 
+## 7. Organizers
+
+*   Saad Ezzini, King Fahd University of Petroleum and Minerals
+*   Salima Lamsiyah, University of Luxembourg
+*   Shadi Abudalfa, King Fahd University of Petroleum & Minerals
+*   Samir El-Amrany, University of Luxembourg
+*   Walid Alsafadi, University College of Applied Sciences Gaza
+
 ## Participation Guidelines
 *   For participation guidelines, please refer to [Participation Guidelines](guidelines.md).
 *   Comprehensive instructions for preparing and submitting your paper(s) are available at [Paper Submission Guidelines](PAPER.md).
