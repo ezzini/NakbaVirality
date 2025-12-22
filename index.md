@@ -1,5 +1,7 @@
 # NakbaVirality: Multimodal and Textual Virality Prediction in High-Stakes Discourse
 
+### Hosted with NakbaNLP Workshop at LREC 2026
+
 ## 1. Motivation and Introduction
 Social media has become the primary battleground for narrative control during geopolitical conflicts. The discourse surrounding the Nakba and the post-October 7th war on Gaza represents a unique intersection of historical trauma, real-time war reporting, and highly polarized sentiment.
 
