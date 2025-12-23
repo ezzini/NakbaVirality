@@ -61,10 +61,11 @@ This shared task contributes to the NLP community by:
 *   **Multimodal Alignment**: Understanding how mismatched modalities (e.g., a peaceful image with violent text) affect virality in conflict scenarios.
 
 ## 6. Tentative Schedule
-*   **Jan 1**: Release of Training Data (3,500 samples).
-*   **Feb 1**: Release of Development Data (500 samples).
-*   **Feb 15**: Evaluation Period Begins (Test set: 1,000 blinded samples).
-*   **Feb 20**: Evaluation Period Ends.
+*   **Jan 1**: Call for Participation. 
+*   **Jan 10**: Release of Training Data (3,500 samples).
+*   **Feb 10**: Evaluation Period Begins (Test set: 1,000 blinded samples)
+*   **Feb 17**: Evaluation Period Ends.
+*   **Feb 21**: Release of Results.
 *   **Mar 1**: Paper Submission Deadline.
 
 ## 7. Organizers
@@ -73,7 +74,7 @@ This shared task contributes to the NLP community by:
 *   Salima Lamsiyah, University of Luxembourg
 *   Shadi Abudalfa, King Fahd University of Petroleum & Minerals
 *   Samir El-Amrany, University of Luxembourg
-*   Walid Alsafadi, University College of Applied Sciences Gaza
+*   Walid Alsafadi, University College of Applied Sciences
 
 ## Participation Guidelines
 *   For participation guidelines, please refer to [Participation Guidelines](guidelines.md).
