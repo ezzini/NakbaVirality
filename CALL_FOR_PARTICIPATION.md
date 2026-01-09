@@ -9,24 +9,19 @@ We invite you to participate in the **NakbaVirality Shared Task**, a new challen
 ### 💡 Motivation
 Understanding what makes a post "go viral" in conflict zones is critical for analyzing propaganda spread, public sentiment, and information maneuvering. This shared task challenges participants to model "virality" not just as a number, but as a function of nuanced text, graphic imagery, and deep historical context.
 
-### 🏆 Tasks
-We propose two distinct tasks:
+### 🏆 Task
+We propose a single task:
 
-**Task 1: Multimodal Virality Classification**
-*   **Goal**: Classify posts into **Low**, **Medium**, or **High** virality buckets.
+**Multimodal Virality Classification**
+*   **Goal**: Classify social media posts (text and image) into **Low**, **Medium**, or **High** virality buckets.
 *   **Input**: Text + Image.
 *   **Challenge**: Aligning mismatched modalities (e.g., peaceful image vs. violent interaction) and handling "dog whistles."
 *   **Metric**: Macro-F1 Score.
 
-**Task 2: Textual Virality and Interaction Prediction (Regression)**
-*   **Goal**: Predict distinct **Likability** (agreement) and **Interactivity** (controversy/engagement) scores.
-*   **Input**: Text only.
-*   **Challenge**: Distinguishing between content that is "liked" versus content that provokes "debate."
-*   **Metrics**: Pearson Correlation ($r$) and MSE.
-
 ### 📂 Data
 *   **Sources**: X (Twitter) and Reddit.
-*   **Size**: ~5,000 anonymized samples (post-Oct 2023).
+*   **Size**: ~2,600 anonymized samples (post-Oct 2023).
+*   **Languages**: Mostly English (60%) and Arabic (10%).
 *   **Content**: Posts related to "Gaza," "Nakba," "Palestine," "Israel," etc.
 
 ### 📅 Important Dates

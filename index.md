@@ -13,7 +13,8 @@ By focusing on this specific domain, we aim to push the boundaries of how NLP an
 We present a curated, multi-platform dataset specifically designed for this task.
 
 *   **Data Sources**: X (formerly Twitter) and Reddit.
-*   **Dataset Size**: 5,000 distinct samples (approx. 2,500 per platform).
+*   **Dataset Size**: Around 2,600 distinct samples.
+*   **Languages**: Mostly English (60%) and Arabic (10%), with others including Farsi, Hebrew, Spanish, Turkish, etc.
 *   **Scope**: Content published post-October 7th, 2023, filtered using keywords related to "Gaza," "Nakba," "Palestine," "Israel," and specific conflict-related terminology.
 *   **Data Fields**:
     *   **Text**: The raw post content (caption/tweet).
@@ -23,35 +24,24 @@ We present a curated, multi-platform dataset specifically designed for this task
 
 **Note on Ethics**: All data will be anonymized to protect user privacy, given the sensitive nature of the topic. IDs and handles will be hashed.
 
-## 3. Task Definitions
-We propose two distinct tasks to evaluate model performance on different modalities and prediction objectives.
+## 3. Task Definition
+We propose a single task to evaluate model performance on multimodal virality prediction.
 
-### Task 1: Multimodal Virality Classification
+### Multimodal Virality Classification
 This task focuses on the interplay between text and imagery. In conflict zones, an image often determines the spread of a post more than the text.
 
 *   **Input**: Post Text + Post Image.
-*   **Objective**: Classify the post into virality buckets based on a normalized "impact score" (derived from likes and shares).
+*   **Objective**: Classify the social media post (text and image) into three virality classes based on a normalized "impact score" (derived from likes and shares).
 *   **Classes**:
     *   **Low Virality**: Content with minimal reach.
     *   **Medium Virality**: Content with average engagement.
-    *   **High Virality**: "Viral" content (top 10% of the dataset).
+    *   **High Virality**: "Viral" content.
 *   **Evaluation Metric**: Macro-F1 Score (to account for potential class imbalance).
 
-### Task 2: Textual Virality and Interaction Prediction (Regression)
-This task isolates the textual component to understand how rhetoric, sentiment, and specific keywords drive engagement.
-
-*   **Input**: Post Text only.
-*   **Objective**: A multi-output regression task to predict two distinct values:
-    *   **Likability ($y_{likes}$)**: The normalized number of likes/upvotes.
-    *   **Interactivity ($y_{comments}$)**: The normalized number of comments/replies.
-*   **Reasoning**: A post may be highly liked (agreement) but have few comments, or highly commented on (controversial/polarizing) but have few likes. Distinguishing these is crucial.
-*   **Evaluation Metric**: Pearson Correlation Coefficient ($r$) and Mean Squared Error (MSE).
-
 ## 4. Baseline Systems
-To assist participants, the organizers will provide the following baselines:
+To assist participants, the organizers will provide the following baseline:
 
-*   **For Task 1**: A late-fusion architecture using BERT (for text) and ResNet-50 (for images), concatenated into a softmax classifier.
-*   **For Task 2**: A RoBERTa-large model fine-tuned on the regression targets with a simple linear head.
+*   A late-fusion architecture using BERT (for text) and ResNet-50 (for images), concatenated into a softmax classifier.
 
 ## 5. Significance and Impact
 This shared task contributes to the NLP community by:
@@ -62,8 +52,8 @@ This shared task contributes to the NLP community by:
 
 ## 6. Tentative Schedule
 *   **Jan 1**: Call for Participation. 
-*   **Jan 10**: Release of Training Data (3,500 samples).
-*   **Feb 10**: Evaluation Period Begins (Test set: 1,000 blinded samples)
+*   **Jan 10**: Release of Training Data (1,800 samples).
+*   **Feb 10**: Evaluation Period Begins (Test set: 900 blinded samples)
 *   **Feb 17**: Evaluation Period Ends.
 *   **Feb 21**: Release of Results.
 *   **Mar 1**: Paper Submission Deadline.
