@@ -3,8 +3,8 @@ description: "NakbaVirality: Multimodal and Textual Virality Prediction in High-
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
-  repository_url: "https://forms.gle/ufj2gqRyMrrdDs5f9"
-  repository_name: "Registration Open"
+  repository_url: "https://www.codabench.org/competitions/12324/"
+  repository_name: "Join the competition now!"
 markdown:
   kramdown:
     auto_ids: false  # This disables automatic heading IDs
